@@ -10,7 +10,7 @@ output:
     toc_float: yes
     toc_depth: 3
     number_sections: no
-  # - packages.bib
+
 ---
 
 ```{r setup, include=FALSE}
@@ -28,6 +28,44 @@ library(highcharter)
 ## Mapa Densidades Bolivia
 
 <iframe frameBorder="0" src="https://rafalopezv.io/static/mapa_ciudades_fb.html" width="100%" height=700 allowtransparency="true" allowfullscreen></iframe>
+
+## Gráfico Categorización Territorios
+
+<iframe frameBorder="0" src="muestras/hc_cat_base1.html" width="100%" height=600 allowtransparency="true" allowfullscreen></iframe>
+
+## Mapa con capas y categorías
+
+<iframe frameBorder="0" src="muestras/mapa_catmun_pob.html" width="100%" height = 750 allowtransparency="true"></iframe>
+
+# Gáficos General
+
+## Rueda de Dependencia
+
+<iframe frameBorder="0" src="muestras/dependency_muestra.html" width="100%" height = 650 allowtransparency="true"></iframe>
+
+## Barra Niveles Válvulas
+
+<iframe frameBorder="0" src="muestras/barras_valvulas.html" width="100%" height=800 allowtransparency="true"></iframe>
+
+## Barras entrega productos
+
+<iframe frameBorder="0" src="muestras/drill_barras.html" width="100%" height=650 allowtransparency="true"></iframe>
+
+## Fallas en Sistemas
+
+<iframe frameBorder="0" src="muestras/razones_fallas.html" width="100%" height=500 allowtransparency="true"></iframe>
+
+
+## Treemap Sub-Sistemas
+
+<iframe frameBorder="0" src="muestras/treemap.html" width="100%" height=700 allowtransparency="true"></iframe>
+
+
+## Heatmap Vendedores - Barrios
+
+<iframe frameBorder="0" src="muestras/heatmap_vendedores.html" width="100%" height=700 allowtransparency="true"></iframe>
+
+
 ## Lineas de Tiempo - Finanzas
 
 ```{r, message=FALSE, warning=FALSE}
@@ -65,5 +103,17 @@ highchart(type = "stock") %>%
 <br>
 <br>
 <br>
+
+# Paneles de Control
+
+##Dashboards
+
+<center>[<img src="img/shiny_examples.jpg" width=75% align = "center" />](https://srgmld.shinyapps.io/muestra_produccion/)</center>
+
+Presionando en la imagen puede acceder a un ejemplo de panel de control.
+
+Existen una variedad de ejemplos y alternativas para desarrollo de paneles de control que se adaptan a todo tipo de requerimiento y necesidad.
+
+
 
 
