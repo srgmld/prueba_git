@@ -52,6 +52,16 @@ library(highcharter)
 <br>
 <br>
 
+
+## Mapa densidades Calacoto
+
+<iframe frameBorder="0" src="muestras/prueba_Calacoto.html" width="100%" height=600 allowtransparency="true" allowfullscreen></iframe>
+
+<br>
+<br>
+<br>
+
+
 # Gáficos General
 
 ## Rueda de Dependencia
