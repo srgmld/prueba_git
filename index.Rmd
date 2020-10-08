@@ -44,7 +44,7 @@ library(highcharter)
 
 ## Mapa con capas y categorías
 
-<iframe frameBorder="0" src="muestras/mapa_catmun_pob.html" width="100%" height = 750 allowtransparency="true"></iframe>
+<iframe frameBorder="0" src="muestras/mapa_catmun_pob.html" width="100%" height = 800 allowtransparency="true"></iframe>
 
 <br>
 <br>
@@ -55,7 +55,7 @@ library(highcharter)
 
 ## Mapa densidades Calacoto
 
-<iframe frameBorder="0" src="muestras/prueba_Calacoto.html" width="100%" height=600 allowtransparency="true" allowfullscreen></iframe>
+<iframe frameBorder="0" src="muestras/prueba_Calacoto.html" width="100%" height=800 allowtransparency="true" allowfullscreen></iframe>
 
 <br>
 <br>
